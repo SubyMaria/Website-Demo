@@ -1,0 +1,94 @@
+.style{
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    margin-top: 200px;
+    }
+    span{
+        margin-left: 30px;
+    }
+    .sign{
+        text-align: center;
+        font-size: 30px;
+        color: lightgreen;
+    }
+    .profileImage{
+        height: 15rem;
+        width: 15rem;
+        margin: 2rem;
+        margin-left: 12rem;
+    
+    }
+    .check{
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+    }
+    .margin{
+        margin-left: 30px;
+    }
+    .arrange{
+        display: flex;
+        flex-direction: row;
+    }
+    .account{
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        padding-right: 80px;
+        padding-left: 80px;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .button{
+        margin-right: 30px;
+    }
+    $input-bg:rgb(235, 235, 235);
+
+    .heading{
+        font-size: 2rem;
+    }
+    .header
+    {
+        background-color: blueviolet;
+        font-size: 1.8rem;
+    }
+    .border
+    {
+        border: 2px solid blueviolet;
+    }
+    .date
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .signBack
+    {
+        background-color: gray;
+    }
+.text{
+    color: white;
+}
+
+    nav
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: lightpink;
+    }
+
+    .link
+    {
+    
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    .link:hover{
+        background-color: whitesmoke;
+    }
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
